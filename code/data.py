@@ -10,7 +10,7 @@ import os
 import numpy as np
 import time
 import pickle
-from utils import set_logger
+from code.utils import set_logger
 
 class Data(object):
 	def __init__(self, dataPath, savePath, paramSavePath, logPath, debug, split_percent, batch_size, timestr, timestep, window):

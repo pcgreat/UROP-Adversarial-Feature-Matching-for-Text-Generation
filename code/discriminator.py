@@ -3,7 +3,7 @@ import tensorflow as tf
 import pickle
 import logging
 import os
-from utils import set_logger
+from code.utils import set_logger
 # import numpy as np
 
 # reproducibility

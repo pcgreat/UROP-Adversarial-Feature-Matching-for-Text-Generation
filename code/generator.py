@@ -3,8 +3,8 @@ import tensorflow as tf
 import pickle
 import os
 # from tensorflow.contrib import rnn
-from utils import dot_product as dot
-from utils import set_logger
+from code.utils import dot_product as dot
+from code.utils import set_logger
 # Use license_1 in LICENSE (BSD 3-clause)
 # lstm implementation details: https://apaszke.github.io/lstm-explained.html
 # and here, http://colah.github.io/posts/2015-08-Understanding-LSTMs/
